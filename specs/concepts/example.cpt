@@ -1,0 +1,54 @@
+Created by Hüseyin Çamcı on 12.03.2020
+
+This is a concept file with following syntax for each concept.
+# Select route
+* "fromButton" li elementi bul ve varsa tıkla
+* "airportSearch-from" li elemente "0" indexli değeri yaz
+* "airportFromButton" li elementi bul ve varsa tıkla
+* "toCode" li elementi bul ve varsa tıkla
+* "airportSearch-to" li elemente "0" indexli değeri yaz
+* "airportFromButton" li elementi bul ve varsa tıkla
+
+# Enter the passenger info for first passanger
+* "btnAddPassenger" li elementi bul ve varsa tıkla
+* Wait "2" seconds
+* "txtName" li elemente "0" indexli değeri yaz
+* "txtSurname" li elemente "0" indexli değeri yaz
+* Choose Gender of "0" person
+* "birthDate" li elementi bul ve varsa tıkla
+* "dateConfirm" li elementi bul ve varsa tıkla
+* "txtEmail" li elemente "0" indexli değeri yaz
+* Uyruk seç
+* "tcNo" li elemente "0" indexli değeri yaz
+* Yolcu bilgilerini kaydetmek istiyor musunuz? (Yes/No): "No"
+* "savePassenger" li elementi bul ve varsa tıkla
+
+# Enter the passenger info for second passanger
+* "addFirstPassenger" li elementi bul ve varsa tıkla
+* "addSecondPassenger" li elementi bul ve varsa tıkla
+* "btnAddPassenger" li elementi bul ve varsa tıkla
+* "txtName" li elemente "1" indexli değeri yaz
+* "txtSurname" li elemente "1" indexli değeri yaz
+* Choose Gender of "1" person
+* "birthDate" li elementi bul ve varsa tıkla
+* "dateConfirm" li elementi bul ve varsa tıkla
+* "txtEmail" li elemente "1" indexli değeri yaz
+* Uyruk seç
+* "tcNo" li elemente "1" indexli değeri yaz
+* Yolcu bilgilerini kaydetmek istiyor musunuz? (Yes/No): "No"
+* "savePassenger" li elementi bul ve varsa tıkla
+
+# Choose seat
+* "btnSelectSeat" li elementi bul ve tıkla
+* "randomTest" li elementi bul ve tıkla
+* "btnRandomSeatOk" li elementi bul ve tıkla
+* "btnSeatSelectionContinue" li elementi bul ve tıkla
+* "btnGenericContinue" li elementi bul ve tıkla
+* "btnGenericContinue" li elementi bul ve tıkla
+* "btnGenericContinue" li elementi bul ve tıkla
+
+# Credit card information
+* "txtCardNumber" li elementi bul ve "4543600319488055" değerini yaz
+* "creditCardExpiryDate" li elementi bul ve tıkla
+* "expiryDateOk" li elementi bul ve tıkla
+* "creditCardCvc" li elementi bul ve "076" değerini yaz
